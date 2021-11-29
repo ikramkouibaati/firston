@@ -1,0 +1,23 @@
+body{
+    background-color: lightgoldenrodyellow;  <! let's give the bodyy a backgrouund couleur>
+}
+
+h1{
+    font-size: 30px;
+    color: teal;  
+}
+h2{ 
+    color: red;
+}
+.big{
+    font-size: 60px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.big.uppercase{
+    color:lightsalmon;
+}
+h1 span{
+    color:burlywood;  <!element + spann to have it only applied to the things inside the element >
+}
