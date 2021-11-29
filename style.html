@@ -2,26 +2,20 @@
 <html>
     <head>
         <title> Style test </title>
-        <style>             
-            h1{
-                font-size: 30px;
-                color: teal;  
-            }
-            h2{ 
-                color: red;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="C:\Users\IKRAM\Documents\web\style.css">
         <! we created a rulesets>
     </head>
     <body>
-        <h1>Heading 1-1</h1>
+        <span> Span element </span>
+        <h1 class= "uppercase"><span>Heading 1</span>-1</h1> <!how to make one word in an element a different style>
         <! here for the color value i pasted the hex code for a color i chose from the web page html color code>
         <! we can also use the name of the color that we can copy from the same page >
-        <h1>Heading 1-2</h1>
+        <h1 class="big ">Heading 1-2</h1>
         <h1>Heading 1-3</h1>
-        <h2 style="font-size: 20px; color: #8FBC8B;">Heading 2-1</h2>
-        <h2 style="font-size:  20px; color: #8FBC8B;">Heading 2-2</h2>
-        <h2 style="font-size:  20px; color: #8FBC8B;">Heading 2-3</h2>
+        <! but what if we want some of these elements to be styled differently : give it a class><!the case for h 1-2 >
+        <h2 class="big uppercase" >Heading 2-1</h2>
+        <h2 style=" color: #8FBC8B;">Heading 2-2</h2>
+        <h2  class="big" style=" color: #8FBC8B;">Heading 2-3</h2>
 
         <! now coping ll this over and over feels repetetive , there s a marter way ! is the one used for all h1 above>
         <! the solution = we change from inline styling to ruleset styling >
@@ -32,6 +26,8 @@
 
         <! also if i give two different rulesets for the seme element , like giving red and green both for an elmt it's the last written that wins>
 
-
+        <! PROBLEM: now if i want to create multiple pages with the same style i ll have to copy the style text and paste it over and over >
+        <! which sucks so :: create a file of type css and paste everything inside the style box on it (can use shift+tab to anindent if needed)>
+        <! then use instruction in line 5 instead of  style elements (here i had deleted the stylee block)>
     </body>
 </html>
